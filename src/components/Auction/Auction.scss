@@ -9,15 +9,26 @@
     .auction__title-box{
         display: flex;
         justify-content: space-between;
+        
         h3{
             font-size: 25px;
             font-weight: 600;
             margin-bottom: 1.125rem;
+            @media (max-width: 400px){
+                font-size: 20px;
+            }
+            @media (max-width: 378px){
+                font-size: 15px;
+            }
         }
         p{
             color: #3186C3;
             font-size: 1rem;
             font-weight: 600;
+            cursor: pointer;
+            @media (max-width: 350px){
+                font-size: 10px;
+            }
         }
     }
     

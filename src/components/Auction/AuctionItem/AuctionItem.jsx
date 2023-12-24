@@ -30,7 +30,7 @@ const AuctionItem = () => {
             <h5>Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..
             </h5>
             <div style={{display: "flex", gap: "10px", alignItems: "center", justifyContent: "flex-start"}}>
-            <p className='bestsellers__price'>1294 с</p>
+            <p className='auction__price'>1294 с</p>
             <p style={{color: "#808080", fontWeight: "700", fontSize: "14px", textDecoration: "line-through"}}>1294 с</p>
             </div>
             <p style={{ color: "#73CB5E", fontSize: "12px", fontWeight: "500", alignSelf: "flex-start", marginBottom: "6px" }}>В наличии</p>

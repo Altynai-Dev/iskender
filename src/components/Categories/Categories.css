@@ -1,0 +1,38 @@
+.categories {
+  padding-bottom: 3.4rem;
+}
+.categories .categories__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.125rem;
+}
+.categories .categories__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.categories .categories__items .categories__item {
+  width: 10.6rem;
+  height: 10.6rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 10.7px;
+}
+.categories .categories__items .categories__item h6 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Gilroy-Bold", sans-serif;
+  margin-bottom: 2.6px;
+  padding-top: 9.7px;
+}
+.categories .categories__items .categories__item p {
+  font-size: 12px;
+  color: #727272;
+  margin-bottom: 2.125rem;
+}
+.categories .categories__items .categories__item .categories__item-img {
+  width: 8rem;
+  height: 5.75rem;
+  border-radius: 10px;
+  margin-left: 2rem;
+}/*# sourceMappingURL=Categories.css.map */

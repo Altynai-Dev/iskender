@@ -1,0 +1,139 @@
+.navbar {
+  height: 4.375rem;
+  background-color: #2D82BE;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar__content {
+  display: flex;
+}
+@media (max-width: 1850px) {
+  .navbar .navbar__content {
+    width: 97vw;
+    padding: 0 15px;
+  }
+}
+@media (max-width: 1172px) {
+  .navbar .navbar__content {
+    width: 100vw;
+    padding: 0 15px;
+  }
+}
+.navbar .navbar__content .navbar__logo {
+  margin-right: 3.25rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1475px) {
+  .navbar .navbar__content .navbar__logo {
+    margin-right: 1.25rem;
+  }
+}
+.navbar .navbar__content .navbar__logo .navbar__logo-img {
+  width: 7.1rem;
+}
+.navbar .navbar__content .navbar__logo .navbar__logo-text {
+  width: 3.25rem;
+  height: 6.83px;
+  margin: 3px auto;
+}
+.navbar .navbar__content .navbar__catalog {
+  width: 8.6rem;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.1019607843);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: 1.375rem;
+}
+@media (max-width: 768px) {
+  .navbar .navbar__content .navbar__catalog {
+    display: none;
+  }
+}
+.navbar .navbar__content .navbar__input {
+  margin-right: 1.375rem;
+}
+.navbar .navbar__content .navbar__input input {
+  width: 42.1rem;
+  height: 2.5rem;
+  border-radius: 100px;
+  border: none;
+  background: url("../images/Search.svg") no-repeat;
+  background-position: 11px center;
+  background-size: 18px;
+  background-color: #fff;
+}
+@media (max-width: 1730px) {
+  .navbar .navbar__content .navbar__input input {
+    width: 30rem;
+  }
+}
+@media (max-width: 1400px) {
+  .navbar .navbar__content .navbar__input input {
+    width: 20rem;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar .navbar__content .navbar__input input {
+    width: 15rem;
+  }
+}
+@media (max-width: 455px) {
+  .navbar .navbar__content .navbar__input input {
+    display: none;
+  }
+}
+.navbar .navbar__content .navbar__input input::-moz-placeholder {
+  display: flex;
+  padding-left: 2.5rem;
+  color: #949494;
+  font-size: 13px;
+}
+.navbar .navbar__content .navbar__input input::placeholder {
+  display: flex;
+  padding-left: 2.5rem;
+  color: #949494;
+  font-size: 13px;
+}
+.navbar .navbar__content .navbar__signIn {
+  margin-right: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 1400px) {
+  .navbar .navbar__content .navbar__signIn {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .navbar__content .navbar__signIn {
+    display: none;
+  }
+}
+.navbar .navbar__content .navbar__signIn .sign__welcome {
+  font-size: 10px;
+  font-weight: 400;
+}
+.navbar .navbar__content .navbar__signIn .sign__text {
+  font-size: 14px;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.navbar .navbar__content .navbar__cart {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 1400px) {
+  .navbar .navbar__content .navbar__cart {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .navbar__content .navbar__cart {
+    display: none;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

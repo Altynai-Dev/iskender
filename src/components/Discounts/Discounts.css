@@ -1,0 +1,17 @@
+.discounts {
+  display: flex;
+  gap: 1.875rem;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+}
+.discounts .discounts__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+}
+.discounts .discounts__item p {
+  font-size: 12px;
+  font-weight: 400;
+}/*# sourceMappingURL=Discounts.css.map */
