@@ -88,6 +88,9 @@
             position: absolute;
             top: -13px;
             right: -22px;
+            @media (max-width: 460px) {
+                display: none;
+            }
         }
     }
 }
