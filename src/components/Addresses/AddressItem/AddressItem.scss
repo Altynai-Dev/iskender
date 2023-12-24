@@ -1,0 +1,36 @@
+.addressItem {
+    width: 25.4rem;
+    height: 11rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+
+    .addressItem__content {
+        display: flex;
+        flex-direction: column;
+
+        .addressItem__top {
+            display: flex;
+            align-items: center;
+            margin-bottom: 13px;
+
+            .addressItem__top-logo {
+                margin-right: 10px;
+            }
+
+            .addressItem__top-text {
+                margin-right: 11rem;
+            }
+        }
+        .addressItem__middle{
+            display: flex;
+            gap: 18px;
+            margin-top: 1.25rem;
+        }
+        .addressItem__bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.375rem;
+        }
+    }
+}

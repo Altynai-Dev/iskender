@@ -1,0 +1,29 @@
+.bestsellers{
+    display: flex;
+    padding-bottom: 1.3rem;
+    .bestsellers__arrow-img{
+        width: 40px;
+        height: 40px;
+        margin-top: 11.8rem;
+    }
+    .bestsellers__title-box{
+        display: flex;
+        justify-content: space-between;
+        h3{
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 1.125rem;
+        }
+        p{
+            color: #3186C3;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+    
+    .bestsellers__items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;    
+    }
+}

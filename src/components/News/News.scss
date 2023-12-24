@@ -1,0 +1,28 @@
+.news{
+    display: flex;
+    padding-bottom: 1.3rem;
+    .news__arrow-img{
+        width: 40px;
+        height: 40px;
+        margin-top: 7rem;
+    }
+    .news__title-box{
+        display: flex;
+        justify-content: space-between;
+        h3{
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 1.125rem;
+        }
+        p{
+            color: #3186C3;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+    .news__items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 17.31px;   
+    }
+}
