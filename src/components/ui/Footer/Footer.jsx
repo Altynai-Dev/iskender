@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <p style={{ width: "14.3rem", fontSize: "14px", paddingBottom: "4.5rem" }}>Первый отечественный бренд Iskender на рынке сантехники от компании ОсОО «Стройдом.кг»</p>
 
-            <div style={{ display: "flex", gap: "18px" }}>
+            <div style={{ display: "flex", gap: "18px", flexWrap: "wrap" }}>
               <img style={{ width: "8.9rem" }} src={AppStore} alt="app-store" />
               <img src={GooglePlay} alt="google-play" />
             </div>
@@ -66,8 +66,8 @@ const Footer = () => {
         <div style={{display: "flex", justifyContent: "space-between", paddingBottom: "1.875rem"}}>
           <p>© 2023 Iskender.kg - Отечественный бренд сантехники</p>
           <div style={{display: "flex", gap: "1rem"}}>
-            <img src={Ig} alt="ig" />
-            <img src={Fb} alt="fb" />
+            <img src={Ig} alt="ig" style={{width: "24px", height: "24px"}} />
+            <img src={Fb} alt="fb" style={{width: "24px", height: "24px"}} />
           </div>
         </div>
       </div>

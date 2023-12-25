@@ -12,7 +12,7 @@ const BestSellerItem = () => {
     const [isFavHovered, setIsFavHovered] = useState(false);
 
     const decreaseQuantity = () => {
-        if (quantity > 1) {
+        if (quantity > 0) {
             setQuantity(quantity - 1); 
         }
     };

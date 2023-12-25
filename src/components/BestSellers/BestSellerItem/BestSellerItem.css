@@ -1,0 +1,67 @@
+.bestsellers__item {
+  width: 12.4rem;
+  height: 21.3rem;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+  position: relative;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.0705882353);
+}
+.bestsellers__item .image__main {
+  margin-bottom: 0.5rem;
+}
+.bestsellers__item .image__fav {
+  position: absolute;
+  top: 22px;
+  left: 153px;
+}
+.bestsellers__item h5 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Gilroy-Bold", sans-serif;
+  margin-bottom: 0.5rem;
+}
+.bestsellers__item .bestsellers__price {
+  font-size: 19px;
+  font-weight: 700;
+  align-self: flex-start;
+  margin-bottom: 2px;
+}
+.bestsellers__item .bestsellers__btns {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.bestsellers__item .bestsellers__btns button {
+  background-color: #F5F5F5;
+  border-radius: 100px;
+  border: none;
+  width: 33px;
+  height: 33px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.bestsellers__item .bestsellers__btns button img {
+  margin-bottom: 0;
+}
+.bestsellers__item .bestsellers__btns button:hover {
+  background-color: #3186C3;
+}
+.bestsellers__item .bestsellers__btns p {
+  width: 4.5rem;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Gilroy-Bold", sans-serif;
+  margin-left: 23px;
+  margin-right: 23px;
+}/*# sourceMappingURL=BestSellerItem.css.map */

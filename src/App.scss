@@ -12,6 +12,14 @@ img{
 .container {
     width: 91vw;
     margin: 0 auto;
+    @media (max-width: 1850px){
+        width: 95vw;
+        padding: 0 15px;
+    }
+    // @media (max-width: 1765px){
+    //     width: 100vw;
+    //     padding: 0 15px;
+    // }
 }
 
 .App {
@@ -21,5 +29,4 @@ img{
     font-family: 'Gilroy-Medium', sans-serif;
     font-family: 'Gilroy-Regular', sans-serif;
     background-color: #F8FAFF;
-    ;
 }

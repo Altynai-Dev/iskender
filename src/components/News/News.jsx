@@ -17,7 +17,7 @@ const News = () => {
             <div className='news__items'>
                 <NewsItem />
                 <NewsItem />
-                <img src={BannerImg} alt='banner' />
+                <img className='news__banner' src={BannerImg} alt='banner' />
             </div>
             <div style={{display: 'flex', justifyContent: "center"}}>
             <img style={{marginTop: '1.625rem'}} src={PaginationImg} alt='pagination' />

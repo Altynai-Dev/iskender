@@ -4,10 +4,15 @@
     color: #fff;
     display: flex;
     align-items: center;
+    position: relative;
 
     .navbar__content{
         display: flex;
-
+        @media (max-width: 824px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        
         .navbar__logo{
             margin-right: 3.25rem;
             display: flex;
@@ -32,6 +37,9 @@
             justify-content: center;
             gap: 1rem;
             margin-right: 1.375rem;
+            @media (max-width: 824px){
+                display: none;
+            } 
         }
         .navbar__input{
             margin-right: 1.375rem;
@@ -44,10 +52,28 @@
             background-position: 11px center;
             background-size: 18px;
             background-color: #fff;
+            padding-left: 2.5rem;
+
+            @media (max-width: 1280px){
+                width: 35rem;
+            }  
+            @media (max-width: 1200px){
+                width: 30rem;
+            } 
+            @media (max-width: 1110px){
+                width: 25rem;
+            }
+            @media (max-width: 1000px){
+                width: 20rem;
+            }
+            @media (max-width: 900px){
+                width: 15rem;
+            }
+            @media (max-width: 500px) {
+                display: none;
+            }
 
             &::placeholder{
-                display: flex;
-                padding-left: 2.5rem;
                 color: #949494;
                 font-size: 13px;
             }
@@ -58,6 +84,12 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            // @media (max-width: 1400px){
+            //    margin-right: 15px;
+            // }
+            @media (max-width: 824px){
+                display: none;
+            }
             .sign__welcome{
                 font-size: 10px;
                 font-weight: 400;
@@ -70,6 +102,49 @@
         .navbar__cart{
             display: flex;
             gap: 10px;
+            // @media (max-width: 1400px){
+            //     margin-left: 2rem;
+            //  }
+            @media (max-width: 824px){
+                display: none;
+            }
         }
+        .navbar__menu, .navbar__burger-menu{
+            display: none;
+            color: #fff;
+            margin-right: 15px;
+            @media (max-width: 824px) {
+                display: block;
+            }
+        }
+       
     }
+    .burger-menu__list{
+        position: absolute;
+        background-color: #2D82BE;
+        color: #fff;
+        font-size: 30px;
+        width: 70vw;
+        left: 13vw;
+        top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        height: 22rem;
+        
+        a{
+            padding: 0 10px;
+            &:hover{
+                font-weight: 700;
+                font-size: 33px;
+            }
+        }
+        span{
+            &:hover{
+                font-weight: 700;
+            }
+        }
+       }
 }

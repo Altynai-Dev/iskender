@@ -1,0 +1,28 @@
+.auction {
+  display: flex;
+  padding-bottom: 1.3rem;
+}
+.auction .auction__arrow-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 11.8rem;
+}
+.auction .auction__title-box {
+  display: flex;
+  justify-content: space-between;
+}
+.auction .auction__title-box h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 1.125rem;
+}
+.auction .auction__title-box p {
+  color: #3186C3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.auction .auction__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}/*# sourceMappingURL=Auction.css.map */

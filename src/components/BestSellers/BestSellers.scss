@@ -18,12 +18,17 @@
             color: #3186C3;
             font-size: 1rem;
             font-weight: 600;
+            cursor: pointer;
         }
     }
     
     .bestsellers__items{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;    
+        gap: 10px;   
+        @media (max-width: 400px){
+            display: flex;
+            justify-content: center;
+        } 
     }
 }

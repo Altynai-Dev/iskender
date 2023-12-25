@@ -6,11 +6,15 @@
         
         .footer__blocks{
             display: flex;
+            flex-wrap: wrap;
         }
         .footer__first {
             padding-top: 4.5rem;
             padding-bottom: 8.3rem;
             margin-right: 11.4rem;
+            @media (max-width: 768px){
+                padding-bottom: 4rem;
+            }
             .footer__logo {
                 display: flex;
                 flex-direction: column;
